@@ -1,0 +1,3 @@
+# Unhandled Exception in Ownable Contract
+
+This repository demonstrates a common vulnerability in Solidity smart contracts related to ownership transfer. The `transferOwnership` function in the `Ownable` contract lacks proper handling of potential errors and may not update the contract's owner correctly, leaving the contract in an unpredictable state.  This can lead to security issues and potential loss of funds.
